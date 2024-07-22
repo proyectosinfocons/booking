@@ -1,0 +1,7 @@
+package com.arauzo.booking.repository;
+
+import com.arauzo.booking.entity.Booking;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookingRepository extends JpaRepository<Booking, Long> {
+}
