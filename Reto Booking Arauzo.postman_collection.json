@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "38e0bfba-cea9-4edc-bed8-1d73a84ce464",
+		"name": "Reto Booking Arauzo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "reservar booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": \"14564088-4\",\n    \"name\": \"Gonzalo\",\n    \"lastname\": \"Pérez\",\n    \"age\": 33,\n    \"phoneNumber\": \"56988123222\",\n    \"startDate\": \"2023-07-01\",\n    \"endDate\": \"2023-07-07\",\n    \"houseId\": \"213132\",\n    \"discountCode\": \"D0542A23\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
