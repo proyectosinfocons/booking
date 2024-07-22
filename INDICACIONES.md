@@ -41,8 +41,8 @@ docker exec -it booking-postgres psql -U postgres -d booking
 1. **Clona el repositorio**:
 
 ```bash
-git clone https://github.com/tu-usuario/booking-service.git
-cd booking-service
+git clone https://github.com/proyectosinfocons/booking.git
+cd booking
 ```
 
 2. **Configura las propiedades de la base de datos en `application.properties`**:
@@ -127,4 +127,4 @@ Para ejecutar las pruebas unitarias, usa el siguiente comando:
 
 ## Contacto
 
-Para cualquier consulta, por favor contacta a [arauzocode@ejemplo.com](mailto:arauzocode@ejemplo.com).
+Para cualquier consulta, por favor contacta a [projectinformatic1196@gmail.com].
